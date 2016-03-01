@@ -1,0 +1,32 @@
+{
+  "name": "nify",
+  "version": "1.0.0",
+  "description": "Nodeify a promise-returning function",
+  "keywords": [
+    "nodeify",
+    "nodify",
+    "node",
+    "callback",
+    "cb",
+    "promise",
+    "promisify",
+    "pify"
+  ],
+  "homepage": "https://github.com/connesc/nify#readme",
+  "bugs": {
+    "url": "https://github.com/connesc/nify/issues"
+  },
+  "license": "MIT",
+  "author": "Cédric Connes <cedric.connes@gmail.com>",
+  "files": [
+    "index.js"
+  ],
+  "repository": "connesc/nify",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "eslint-config-connesc": "^1.0.2"
+  }
+}

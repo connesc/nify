@@ -1,0 +1,7 @@
+{
+  "root": true,
+  "extends": "connesc/node-es5",
+  "rules": {
+    "no-invalid-this": 0
+  }
+}
