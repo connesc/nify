@@ -3,6 +3,10 @@
 module.exports = exports = nify;
 
 function nify(fn, options) {
+	if (typeof fn !== 'function') {
+		throw new Error('An input function was expected');
+	}
+
 	options = Object(options);
 	var spread = Boolean(options.spread);
 	var strict = Boolean(options.strict);
