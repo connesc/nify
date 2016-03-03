@@ -1,6 +1,6 @@
 {
   "name": "nify",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Nodeify a promise-returning function",
   "keywords": [
     "nodeify",
@@ -24,6 +24,9 @@
   "repository": "connesc/nify",
   "scripts": {
     "lint": "eslint ."
+  },
+  "dependencies": {
+    "lodash.defaults": "^4.0.1"
   },
   "devDependencies": {
     "eslint": "^2.2.0",
